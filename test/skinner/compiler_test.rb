@@ -26,6 +26,7 @@ class Skinner::CompilerTest < ActiveSupport::TestCase
 
   private
 
+  # rubocop:disable Metrics/MethodLength
   def template
     @template ||= <<-FILE
       <!DOCTYPE html>
@@ -40,4 +41,5 @@ class Skinner::CompilerTest < ActiveSupport::TestCase
       </html>
     FILE
   end
+  # rubocop:enable Metrics/MethodLength
 end

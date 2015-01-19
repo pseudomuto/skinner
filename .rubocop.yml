@@ -1,0 +1,21 @@
+---
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
