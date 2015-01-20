@@ -2,7 +2,7 @@ require "liquid"
 require "nokogiri"
 
 module Skinner
-  attr_accessor :link_format
+  cattr_accessor :link_format
   self.link_format = "/:id/:path"
 
   def hash_from_array(items)

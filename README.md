@@ -1,6 +1,8 @@
 # Skinner
 
-TODO: Write a gem description
+[![Build Status](https://travis-ci.org/pseudomuto/skinner.svg?branch=master)](https://travis-ci.org/pseudomuto/skinner)
+
+Nothing to see here really. Just playing around with liquid and stuff.
 
 ## Installation
 
@@ -17,10 +19,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install skinner
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
