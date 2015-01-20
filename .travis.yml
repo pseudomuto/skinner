@@ -1,6 +1,11 @@
 ---
 language: ruby
+bundler_args: --without production
+
+before_install:
+  - "echo \"gem: --no-ri --no-rdoc\" > ~/.gemrc"
+  - gem update bundler
+
 rvm:
   - 2.1
   - 2.2
-bundler_args: --without production
